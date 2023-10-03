@@ -2,9 +2,9 @@
 
 **Exercise 1: Downloading a File**
 
-1. Open your terminal emulator.
+Open your terminal emulator.
 
-2. Use `curl` to download a sample file. For example:
+Use `curl` to download a sample file. For example:
    ```bash
    curl -O https://example.com/samplefile.tar.gz
    ```
@@ -12,33 +12,33 @@ The sample file is: https://getsamplefiles.com/download/tar/sample-3.tar
 
 **Exercise 2: Checking File Existence**
 
-3. Check if the file `samplefile.tar.gz` was downloaded successfully?
+Check if the file `samplefile.tar.gz` was downloaded successfully?
 
 
 **Exercise 3: Display File Content**
 
-4. Display the content of the downloaded `samplefile.tar.gz` without extracting it?
+Display the content of the downloaded `samplefile.tar.gz` without extracting it?
 
 
 **Exercise 4: Downloading to a Specific Directory**
 
-5. Download the above file using `curl` and save it to a specific directory, such as `/path/to/directory`. Any directory would do.
+Download the above file using `curl` and save it to a specific directory, such as `/path/to/directory`. Any directory would do.
 
 
 **Exercise 5: Downloading and Uncompressing Simultaneously**
 
-6. Download the above file, extract it using `tar`, and save it in a single directory in a single `curl` command.
+Download the above file, extract it using `tar`, and save it in a single directory in a single `curl` command.
 
 
 **Exercise 6: Uncompressing a File**
 
-7. Extract the file using the tar command.
+Extract the file using the tar command.
 
 
 **Exercise 7: Checking File Compression Type**
 
 
-9. Use `curl` to download a file and display a progress bar while downloading.
+Use `curl` to download a file and display a progress bar while downloading.
 
 
 **Exercise 9: Resuming an Interrupted Download**
