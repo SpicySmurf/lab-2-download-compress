@@ -11,6 +11,7 @@ The sample file is: https://getsamplefiles.com/download/tar/sample-3.tar
 **Exercise 2: Checking File Existence**
 
 Check if the file `samplefile.tar.gz` was downloaded successfully?
+----
 
 
 **Exercise 3: Display File Content**
