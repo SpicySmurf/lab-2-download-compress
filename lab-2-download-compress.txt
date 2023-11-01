@@ -50,7 +50,20 @@ Use `curl` to download a file and display a progress bar while downloading.
     
     c) Use the `-C -` option.
 _________________________________________________________________________________________________
- $ curl -o path/to/directory/sample-3.tar https://getsamplefiles.com/tar/sample-3.tar
+@SpicySmurf ➜ /workspaces/lab-2-download-compress (main) $ curl -o path/to/directory https://getsamplefiles.com/tar/sample-3.tar
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Warning: Failed to create the file path/to/directory: Is a directory
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (23) Failed writing body (0 != 3952)
+@SpicySmurf ➜ /workspaces/lab-2-download-compress (main) $ curl -o path/tp/directory/sample-3.tar https://getsamplefiles.com/tar/sample-3.tar
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Warning: Failed to create the file path/tp/directory/sample-3.tar: No such 
+Warning: file or directory
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (23) Failed writing body (0 != 3952)
+@SpicySmurf ➜ /workspaces/lab-2-download-compress (main) $ curl -o path/to/directory/sample-3.tar https://getsamplefiles.com/tar/sample-3.tar
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100  6603    0  6603    0     0  22157      0 --:--:-- --:--:-- --:--:-- 22083
